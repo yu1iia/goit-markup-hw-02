@@ -3,14 +3,14 @@
     --main-font: "Roboto", sans-serif;
     --secondary-font: "Raleway", sans-serif;
     --hero-bg-color: #2F303A;
-    --footer-bg-color: #2F303A;
-    --logo-begin-color: #2196F3;
+    --footer-bg-color: #2f303a;
+    --logo-begin-color: #2196f3;
     --logo-end-color: #000000;
-    --footer-logo-end-color:#FFFFFF;
+    --footer-logo-end-color:#ffffff;
     --main-font-color: #757575;
-    --accent-color: #2196F3;
+    --accent-color: #2196f3;
     --title-light-theme-color: #212121;
-    --title-dark-theme-color: #FFFFFF;
+    --title-dark-theme-color: #ffffff;
     --subtitle-dark-theme-color: rgba(255, 255, 255, 0.6);
   }
 
