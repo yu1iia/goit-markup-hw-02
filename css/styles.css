@@ -2,21 +2,18 @@
 :root {
     --main-font: "Roboto", sans-serif;
     --secondary-font: "Raleway", sans-serif;
-    --hero-bg-color: #2F303A;
-    --footer-bg-color: #2f303a;
-    --logo-begin-color: #2196f3;
-    --logo-end-color: #000000;
-    --footer-logo-end-color:#ffffff;
+    --dark-bg-color: #2f303a;
+    --logo-color: #000000;
     --main-font-color: #757575;
     --accent-color: #2196f3;
     --title-light-theme-color: #212121;
     --title-dark-theme-color: #ffffff;
+    --light-bg-color: #f5f4fA;
     --subtitle-dark-theme-color: rgba(255, 255, 255, 0.6);
   }
 
   body {
     font-family: var(--main-font);
-    font-style: normal;
   }
   
   .list {
@@ -38,7 +35,7 @@
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
-    color: var(--logo-begin-color);
+    color: var(--accent-color);
   }
   .logo {
     font-family: var(--secondary-font);
@@ -46,7 +43,7 @@
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
-    color: var(--logo-end-color);
+    color: var(--logo-color);
   }
   .navigation-link {
     font-family: var(--main-font);
@@ -56,9 +53,7 @@
     letter-spacing: 0.02em;
     color: var(--title-light-theme-color);
   }
-  .active-page {
-    color: var(--accent-color);
-  }
+  .active-page,
   .navigation-link:hover,
   .navigation-link:focus {
     color: var(--accent-color);
@@ -76,7 +71,7 @@
 
   /*========HERO========*/
   .hero-section {
-      background: var(--hero-bg-color);
+      background: var(--dark-bg-color);
   }
   .hero-title {
     font-weight: 900;
@@ -130,6 +125,9 @@
   /*=========END WORK=========*/
   
   /*==========TEAM============*/
+  .team {
+    background-color: var(--light-bg-color);
+  }
   .teammate-name { 
     font-weight: 500;
     font-size: 16px;
@@ -172,10 +170,10 @@
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
-    color: var(--footer-logo-end-color);
+    color: var(--title-dark-theme-color);
 }
 .footer {
-    background: var(--footer-bg-color);
+    background: var(--dark-bg-color);
 }
 .footer-contacts-details {
     font-weight: normal;
@@ -210,10 +208,16 @@
     color: var(--title-light-theme-color);
 }
 .services-category {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.875;
-letter-spacing: 0.03em;
-color: var(--main-font-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--main-font-color);
+}
+.services-filter-button:hover {
+    color: var(--title-dark-theme-color);
+    background-color: var(--accent-color);
+}
+
 }
 /*==========END PORTFOLIO=========*/
