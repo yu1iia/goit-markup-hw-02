@@ -176,7 +176,7 @@
     background: var(--dark-bg-color);
 }
 .footer-contacts-details {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
@@ -192,7 +192,6 @@
 
 .services-filter-button {
     font-family: var(--main-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
